@@ -3,6 +3,7 @@ name: Build Chia Docker Image
 on:
   release:
     types: [published]
+  workflow_dispatch:  
   
 jobs:
   push_to_registry:
